@@ -1,0 +1,19 @@
+# Node.js specific
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# AWS Lambda specific
+*.zip
+*.zip.*
+
+# Environment variables (if stored in a file)
+.env
+
+# AWS configuration (if using AWS CLI)
+.aws/
+
+# Other files and directories you may want to ignore
+.idea/
+.vscode/
+.DS_Store

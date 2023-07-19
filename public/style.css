@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+.title{
+    font-weight: bold;
+    color: #3d3535;
+}
+.left_box{
+    background-color: #fff;
+    width: 23%;
+    margin-right: 2%;
+}
+.first_list{
+    width: 98%;
+    display: flex;
+    justify-content: center;
+}
+.pic{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border:1px solid blue;
+}
+.inner_field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first_inner{
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid gray;
+    align-items: center;
+}
+.first_inner1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon_size{
+    font-size: 10px;
+}
+.pie_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first_title{
+    color:grey;
+}
+.first_title_inner{
+    color: #00D88f;
+    font-weight: bold;
+}
+
+.small_text{
+   font-size: 16px;
+}
+.title_box{
+    margin-top: 10%;
+}
+.title_box h3{
+    padding-left: 20px;
+}
+.menu_box{
+    margin-top: 10%;
+}
+.menu_list{
+    list-style-type: none;
+    margin-top:10%;
+    
+}
+.menu_list li{
+    padding: 2% 0;
+    font-size: 17px;
+    font-weight: bold;
+    color:rgb(74, 63, 63);
+    display: flex;
+    justify-content:space-between;
+    cursor: pointer;
+}
+.menu_list li:hover{
+    background-color: blue;
+    color:white;
+    padding: 2%;
+}
+.pie{
+    border-radius: 50%;
+    margin-left: 10%;
+    margin-top: 20%;
+}
+.logo_img{
+    height: 8vh;
+    width: 5vw;
+}
+.logo_inner{
+    font-size: 1rem;
+}
+.pen_text{
+    color:white;
+}
+.graph_img{
+    width: 100%;
+}
+.pie_img{
+    width: 200%;
+    margin-top: -60%;
+    margin-left: -50%;
+}
+.text_dark{
+    color: #00D88f;
+}
+body{
+    overflow-x: hidden;
+    background-color: rgba(105, 119, 177, 0.32);
+}
+.pending_icon{
+color:orange;
+}
+
+.second_list,.third_list,.fourth_list{
+    display: flex;
+    justify-content:space-between
+}
+@media screen and (max-width:700px) {
+    .menu_box{
+        width: 100vw;
+        background-color: #fff;
+    }
+    .menu_list{
+        width: 100vw;
+    }
+}
+tbody tr{
+    border: white;
+}
+.icon_circle{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-solid{
+    font-size: 25px;
+}
